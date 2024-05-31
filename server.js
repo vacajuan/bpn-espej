@@ -12,7 +12,7 @@ app.get('*', (req, res) => {
 });
 
 // Puerto en el que el servidor escuchará las solicitudes
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3003;
 
 // Iniciar el servidor
 app.listen(port, () => {
